@@ -1,14 +1,14 @@
-% Define the parameters
-a = 1; % Decay rate
-b = 2; % Frequency
+// Define the parameters
+a = 1; // Decay rate
+b = 2; // Frequency
 
-% Define the time vector
-t = linspace(0, 10, 1000); % From 0 to 10 with 1000 points
+// Define the time vector
+t = linspace(0, 10, 1000); // From 0 to 10 with 1000 points
 
-% Compute the function
+// Compute the function
 y = exp(-a * t) .* cos(b * t);
 
-% Plot the graph
+// Plot the graph
 figure;
 plot(t, y);
 xlabel('Time (t)');
